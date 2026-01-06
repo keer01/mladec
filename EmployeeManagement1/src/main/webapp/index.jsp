@@ -2,10 +2,17 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Employee Management</title>
+</head>
 <body>
-    <h2>Employee Management System</h2>
  
-    <a href="addEmployee.jsp">Add Employee</a><br><br>
-    <a href="viewEmployee.jsp">View Employees</a>
+<h2>Employee Management System</h2>
+ 
+<ul>
+    <li><a href="addEmployee.jsp">Add Employee</a></li>
+    <li><a href="viewEmployee.jsp">View Employees</a></li>
+</ul>
+ 
 </body>
 </html>

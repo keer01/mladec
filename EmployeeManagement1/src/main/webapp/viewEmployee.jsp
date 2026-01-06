@@ -28,8 +28,11 @@ for(Employee e : list) {
     <td><%= e.getName() %></td>
     <td><%= e.getEmail() %></td>
     <td><%= e.getSalary() %></td>
-</tr>
-<% } %>
+    <td>
+        <a href="editEmployee?id=<%= e.getId() %>">Edit</a>
+        <a href="deleteEmployee?id=<%= e.getId() %>">Delete</a>
+    </td>
+</tr><% } %>
  
 </table>
  
